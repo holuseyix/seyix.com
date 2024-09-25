@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="20240807_101352.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Seyi</span><br> Oguntimehin From Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="ei_1722980737042-removebg-preview.png"
+                        class="jjj">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a web-developer specialized in developing my skills. Building and developing websites are my
+                        work area. Area of specialization comes in when
+                        i am specified in web development alone. Being a certified Speciallized web developer was not an
+                        easy task when i was at work. I dedicated
+                        my time into it. I am dilligent to work and i am an honest being. Right attitude to work is my
+                        best Character.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web-Development</span><br>Web app development</li>
+                            <li><span>App-Development</span><br>Bulding android/iosapps</li>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Web app development at Opus INC</li>
+                            <li><span>2019-2023</span><br>Bulding apps at coin digital Ltd</li>
+                            <li><span>2017-2019</span><br>Designing web/app interfaces AT starApp LLC</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>MBA from MLT Bangalore</li>
+                            <li><span>2018</span><br>Bulding apps training at ET Institute</li>
+                            <li><span>2022</span><br>BBA from ISM Bangalore</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- -----------services---------- -->
+<div id="services">
+     <div class="container">
+    <h1 class="subtitle">My Services</h1>
+    <div class="services-list">
+     <div class="break">
+        <h2>Web Design</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque fugiat blanditiis deleniti sunt doloribus voluptate fugit!</p>
+        <a href="#">Learn More</a>
+     </div>
+     <div class="break">
+        <h2>UI/UX Design</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque fugiat blanditiis deleniti sunt doloribus voluptate fugit!</p>
+        <a href="#">Learn More</a>
+     </div>
+     <div class="break">
+        <h2>App Development</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque fugiat blanditiis deleniti sunt doloribus voluptate fugit!</p>
+        <a href="#">Learn More</a>
+     </div>
+</div>
+</div>
+</div>
+<!-- --------portfolio-------- -->
+ <div id="portfolio">
+    <div class="contaner">
+        <h1 class="subtitle">My Work</h1>
+        <div id="work-list">
+            <div class="work">
+                <img src="Doctor Consultation Website Design.jpeg">
+                <div class="layer">
+                    <h3>Hospital Website</h3>
+                    <p>This website get you connected to the an hospital and know their availaibility from home.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="IMG-20240827-WA0018.jpg">
+                <div class="layer">
+                    <h3>Bussiness Website</h3>
+                    <p>This is a type of website created for you to know or have an idea of means and innovative ways your bussiness can be boosted.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="IMG-20240819-WA0003.jpg">
+                <div class="layer">
+                    <h3>Kitchen Website</h3>
+                    <p>This is a website carrying different ways your kitchen can be built. It is mainly built for an architect to help them display their works.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="C:\Users\Samuel Oguntimehin\Documents\ultimate\index.html" class="btn">See More</a>
+    </div>
+ </div>
+    <!-- ------------contact---------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p> <i class='bx bxl-gmail'></i> holuseyix@gmail.com</p>
+                    <p> <i class='bx bxs-phone'></i> 08089011968</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61565562622341"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.instagram.com/seyixholu?igsh=MTB5YWNlM3Q0YWJpdw=="><i class='bx bxl-instagram'></i></a>
+                        <a href="https://www.linkedin.com/in/oluwaseyi-favour-688532311"><i class='bx bxl-linkedin-square' ></i></a>
+                        <a href="https://wa.me/2348061655552"><i class='bx bxl-whatsapp'></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">Copyright @ Seyix. Made with <i class='bx bxs-heart'></i> for advertisement.</div>
+     </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tablinks");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
